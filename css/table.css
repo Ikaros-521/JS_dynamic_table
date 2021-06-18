@@ -1,0 +1,106 @@
+body {
+	background: #E4E7ED;
+	font-family: MicrosoftYaHei;
+}
+
+input {
+	outline: none;
+}
+
+#center {
+	padding: 10px;
+	margin-top: 10px;
+	margin-left: 14px;
+	margin-right: 14px;
+
+	width: auto;
+	background: #FFFFFF;
+
+	overflow: hidden;
+}
+
+/* 中心的form表单 */
+#center_div1 {
+	background-color: white;
+}
+
+/* 新增输入框 */
+.input_common {
+	width: 90%;
+	height: 28px;
+	background: #FFFFFF;
+	border: 1px solid #C4C6CF;
+	border-radius: 2px;
+}
+
+/* 表格 */
+.table1 {
+	width: 100%;
+	border: 1px solid #dee2e6;
+	margin-bottom: 1rem;
+	color: #212529;
+	border-collapse: collapse;
+	display: table;
+	border-spacing: 2px;
+}
+
+.table1 tr {
+	display: table-row;
+	vertical-align: inherit;
+	border-color: inherit;
+}
+
+.table1 tr th {
+	border-bottom-width: 2px;
+	border: 1px solid #dee2e6;
+	text-align: left;
+	padding-left: 15px;
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	color: #666666;
+	line-height: 17px;
+	height: 48.5px;
+	width: 400px;
+}
+
+.table1 td {
+	border: 1px solid #dee2e6;
+	height: 48.5px;
+	width: 400px;
+	text-align: left;
+	padding-left: 15px;
+}
+
+.table1 td img {
+	cursor: pointer;
+}
+
+#addlist_btn {
+	background: #FFFFFF;
+	border: 1px solid #C4C6CF;
+	border-radius: 3px;
+	width: 80px;
+	height: 32px;
+
+	margin-top: 17px;
+	float: left;
+}
+
+/* bottom */
+#bottom {
+	padding: 20px;
+}
+
+#copyright {
+	height: 100px;
+	font-family: MicrosoftYaHei;
+	font-size: 12px;
+	color: #CCCCCC;
+	text-align: center;
+}
+
+#copyright_span {
+	font-family: MicrosoftYaHei;
+	font-size: 12px;
+	color: #666666;
+}

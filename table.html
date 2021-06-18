@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>动态表格</title>
+    <script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<link type="text/css" href="css/jquery-ui.min.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<script src="js/bootstrap.min.js"></script>
+	<link type="text/css" href="css/table.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="center">
+        <div id="center_div1">
+            <div id="app1">
+                <form id="form1" enctype="multipart/form-data" action="cgi-bin/table.cgi" method="post"
+                    class="form-horizontal" role="form">
+                    <table class="table1" id="table1">
+                        <thead>
+                            <tr id="list">
+                                <th class="table_th">a</th>
+                                <th class="table_th">b</th>
+                                <th class="table_th">c</th>
+                                <th class="table_th" style="width:100px;">操作</th>
+                            </tr>
+                        </thead>
+                        <tbody id="listbody"></tbody>
+                    </table>
+                </form>
+                <div>
+                    <input id="addlist_btn" type="button" value="添加" onclick="addlist();"
+                        style="width:60px;height:32px;" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="copyright">
+            <span>Copyright © </span>
+            <span id="copyright_year">--</span>
+            <span>Ikaros, All Rights Reserved.</span>
+        </div>
+    </div>
+</body>
+<script src="js/table.js"></script>
+
+</html>
